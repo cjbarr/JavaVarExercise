@@ -4,8 +4,10 @@ public class JavaLoops {
     //   prog1();
     //   prog2();
     //   prog3();
-      prog4();
-      prog5();
+    //   prog4();
+    //   prog5();
+    //   prog6();
+      prog7();
     
     }
      
@@ -61,6 +63,28 @@ public class JavaLoops {
     }
 
     //Question 6: Nested for loops 
+    public static void prog6(){
+        for(int i = 1; i<=2; i++){
+            System.out.println("Week " +i +":" );
+            for(int x=1;x<=5;x++){
+                System.out.println("Day "+ x );
+
+            }
+        }
+
+    }
+
+    //Question 7: Program that returns all the palindromes between 10 and 200.
+    public static void prog7(){
+        String iS ="";
+        for (int i =10; i<=200; i++){
+           iS = String.valueOf(i);
+            if(iS.charAt(0)==iS.charAt(iS.length()-1)){
+                System.out.println(iS);
+            }
+        }
+
+    }
 
 
 
