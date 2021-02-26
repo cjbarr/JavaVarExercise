@@ -127,6 +127,7 @@ public class controlFlow {
         System.out.println(weekDay);
         dayScan.close();
     }
+
 }
 
 
