@@ -1,6 +1,24 @@
 
 public class Op_Num_BARR {
 
+	// decimal to Binary Question 1
+	// 1 : 0000 0001
+	// 8 : 0000 1000
+	// 33 : 0010 0001
+	// 78 : 0011 0001 0011
+	// 787 : 0011 0001 0111
+	// 33987 : 0100 0010 0110 00011
+
+	// Binary to decimal Question 2
+
+	// 0010: 2
+	// 1001: 9
+	// 0011 0100: 52
+	// 0111 0010: 114
+	// 0010 0001 1111: 543
+	// 0010 1100 0110 0111: 11367
+
+	//QUESTION 3
 	public static void prog1() {
 		int x = 2;
 		System.out.println("Prog 1 Starting Int " + Integer.toBinaryString(x));
@@ -10,6 +28,7 @@ public class Op_Num_BARR {
 
 	}
 
+	//QUESTION 4
 	public static void prog2() {
 		int x = 150;
 		System.out.println("Prog 2 Starting Int " + Integer.toBinaryString(x));
@@ -18,6 +37,7 @@ public class Op_Num_BARR {
 		System.out.println("Binary: " + Integer.toBinaryString(x));
 	}
 
+	//QUESTION 5
 	public static void prog3() {
 		int x = 7;
 		int y = 17;
@@ -28,6 +48,7 @@ public class Op_Num_BARR {
 
 	}
 
+	//QUESTION 6
 	public static void prog4() {
 		int x = 2;
 		System.out.println("Before postfix: " + x);
@@ -36,6 +57,7 @@ public class Op_Num_BARR {
 
 	}
 
+	//QUESTION 7
 	public static void prog5() {
 		int x = 1;
 		System.out.println("Pre X: " + x);
@@ -47,6 +69,7 @@ public class Op_Num_BARR {
 		System.out.println("Post add+1: " + x);
 	}
 
+	//QUESTION 8
 	public static void prog6() {
 		int x = 5;
 		int y = 8;
@@ -59,22 +82,7 @@ public class Op_Num_BARR {
 	}
 
 	public static void main(String[] args) {
-		// decimal to Binary Question 1
-		// 1 : 0000 0001
-		// 8 : 0000 1000
-		// 33 : 0010 0001
-		// 78 : 0011 0001 0011
-		// 787 : 0011 0001 0111
-		// 33987 : 0100 0010 0110 00011
 
-		// Binary to decimal Question 2
-
-		// 0010: 2
-		// 1001: 9
-		// 0011 0100: 52
-		// 0111 0010: 114
-		// 0010 0001 1111: 543
-		// 0010 1100 0110 0111: 11367
 
 		prog1();
 		prog2();
